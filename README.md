@@ -19,5 +19,7 @@ These settings are for https://old.reddit.com/ with Reddit Enhancement Suite. Th
 * G: Previous image in album
 * X: Go to parent comment's sibling
 
+Note: I put ring finger on "Q"
+
 ## Example Navigation
 ![](example.gif)
