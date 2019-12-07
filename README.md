@@ -1,5 +1,5 @@
 # res_settings
-These settings are for https://old.reddit.com/ with Reddit Enhancement Suite. Using them, Reddit can be navigated very quickly and without a mouse.
+These settings are for https://old.reddit.com/ with Reddit Enhancement Suite. They contain some general tweaks and useful keybings. With the keybinds, Reddit can be navigated easily without a mouse.
 
 ## Setup Instructions
 1. Click the gear in the top right and select "RES settings console".
