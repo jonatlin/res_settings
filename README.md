@@ -1,5 +1,5 @@
 # res_settings
-These settings are for https://old.reddit.com/ with Reddit Enhancement Suite. They contain some general tweaks and useful keybindings. With the keybinds, Reddit can be navigated without a mouse.
+These settings are for https://old.reddit.com/ with Reddit Enhancement Suite. They contain some general tweaks and useful keybindings.
 
 ## Setup Instructions
 1. Click the gear in the top right and select "RES settings console".
@@ -18,8 +18,6 @@ These settings are for https://old.reddit.com/ with Reddit Enhancement Suite. Th
 * S: Next image in album
 * G: Previous image in album
 * X: Go to parent comment's sibling
-
-Note: I put ring finger on "Q"
 
 ## Example Navigation
 ![](example.gif)
