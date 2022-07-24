@@ -18,6 +18,12 @@ These settings are for https://old.reddit.com/ with Reddit Enhancement Suite. Th
 * S: Next image in album
 * G: Previous image in album
 * X: Go to parent comment's sibling
+* shift+x: Go to next top level comment
+
+## Appearance changes
+* Night mode
+* Border around comments/posts
+* Hidden username
 
 ## Example Navigation
 ![](example.gif)

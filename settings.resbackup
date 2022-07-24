@@ -1,1 +1,421 @@
-{"SCHEMA_VERSION":2,"data":{"RES.modulePrefs":{"disableChat":true,"newCommentCount":false,"readComments":false,"saveComments":false,"subRedditTagger":false,"usernameHider":true},"RESLastToolTip":1586192295036,"RESModules.announcement.lastAnnouncementID":"evaqq6","RESOptionsVersion":"5.17.0-firstRun-to-last","RESmodules.announcement.lastUnreadDate":1586192294481,"RESoptions.hover":{"instances":{"value":[["accountSwitcher",true],["messageMenu",true],["subredditInfo",true],["userInfo",true],["multiredditNavbar",true],["showParent",true],["profileNavigator",true]]}},"RESoptions.keyboardNav":{"edit":{"value":[-1,false,false,false,false]},"enterFilterCommandLine":{"value":[-1,false,false,false,false]},"followCommentsNewTab":{"value":[68,false,false,false,false]},"followLinkAndCommentsNewTab":{"value":[70,false,false,false,false]},"followLinkAndCommentsNewTabBG":{"value":[-1,false,false,false,false]},"followSubreddit":{"value":[-1,false,false,false,false]},"frontPage":{"value":[-1,false,false,false,false]},"goMode":{"value":[-1,false,false,false,false]},"moveDown":{"value":[81,false,false,false,false]},"moveDownComment":{"value":[69,false,false,false,false]},"moveDownParentSibling":{"value":[88,false,false,false,false]},"moveDownSibling":{"value":[81,false,false,false,false]},"moveDownThread":{"value":[-1,false,false,false,false]},"moveToTopComment":{"value":[-1,false,false,false,false]},"moveUp":{"value":[87,false,false,false,false]},"moveUpComment":{"value":[-1,false,false,false,false]},"moveUpSibling":{"value":[87,false,false,false,false]},"moveUpThread":{"value":[-1,false,false,false,false]},"nextGalleryImage":{"value":[83,false,false,false,false]},"previousGalleryImage":{"value":[71,false,false,false,false]},"reply":{"value":[-1,false,false,false,false]},"saveComment":{"value":[-1,false,false,false,false]},"savePost":{"value":[-1,false,false,false,false]},"saveRES":{"value":[-1,false,false,false,false]},"toggleExpando":{"value":[82,false,false,false,false]}},"RESoptions.penaltyBox":{"features":{"value":[["multiredditNavbar","sectionMenu",true,0],["RESTips","dailyTip",true,15],["profileNavigator","sectionMenu",true,0]]}},"RESoptions.selectedEntry":{"backgroundColor":{"value":"#f0f3fc"},"outlineStyle":{"value":"1px dashed gray"},"outlineStyleNight":{"value":"1px dashed gray "},"textColorNight":{"value":"#dddddd"}},"RESoptions.styleTweaks":{"highlightTopLevelColor":{"value":"#8b0000"},"visitedStyle":{"value":true}},"RESoptions.subredditManager":{"storeSubredditVisit":{"value":false}},"backup.lastCheck":1586192288604,"backup.lastModified.file":1586192370915,"highestVersion":"5.18.11","last_prune.RESoptions":1586192304522,"last_prune.commentHidePersistor":1575680558882,"last_prune.newCommentCount":1575679815024}}
+{
+    "SCHEMA_VERSION": 2,
+    "data": {
+        "RES.modulePrefs": {
+            "commentNavigator": false,
+            "disableChat": true,
+            "messageMenu": false,
+            "newCommentCount": false,
+            "quickMessage": false,
+            "readComments": false,
+            "saveComments": false,
+            "showParent": false,
+            "singleClick": false,
+            "subRedditTagger": false,
+            "userTagger": false,
+            "usernameHider": true
+        },
+        "RESLastToolTip": 1586192295036,
+        "RESModules.announcement.lastAnnouncementID": "sh83gx",
+        "RESOptionsVersion": "5.17.0-firstRun-to-last",
+        "RESTips.featureTips.filterline": {
+            "enabled": false
+        },
+        "RESmodules.announcement.lastUnreadDate": 1658701268620,
+        "RESmodules.subredditStyleToggle.ignored": [],
+        "RESoptions.RESTips": {
+            "dailyTip": {
+                "value": false
+            }
+        },
+        "RESoptions.betteReddit": {
+            "pinHeader": {
+                "value": "sub"
+            }
+        },
+        "RESoptions.hover": {
+            "instances": {
+                "value": [
+                    [
+                        "accountSwitcher",
+                        true
+                    ],
+                    [
+                        "messageMenu",
+                        true
+                    ],
+                    [
+                        "subredditInfo",
+                        true
+                    ],
+                    [
+                        "userInfo",
+                        true
+                    ],
+                    [
+                        "multiredditNavbar",
+                        true
+                    ],
+                    [
+                        "showParent",
+                        true
+                    ],
+                    [
+                        "profileNavigator",
+                        true
+                    ]
+                ]
+            }
+        },
+        "RESoptions.keyboardNav": {
+            "edit": {
+                "value": [
+                    -1,
+                    false,
+                    false,
+                    false,
+                    false
+                ]
+            },
+            "enterFilterCommandLine": {
+                "value": [
+                    -1,
+                    false,
+                    false,
+                    false,
+                    false
+                ]
+            },
+            "followCommentsNewTab": {
+                "value": [
+                    68,
+                    false,
+                    false,
+                    false,
+                    false
+                ]
+            },
+            "followLinkAndCommentsNewTab": {
+                "value": [
+                    70,
+                    false,
+                    false,
+                    false,
+                    false
+                ]
+            },
+            "followLinkAndCommentsNewTabBG": {
+                "value": [
+                    -1,
+                    false,
+                    false,
+                    false,
+                    false
+                ]
+            },
+            "followSubreddit": {
+                "value": [
+                    -1,
+                    false,
+                    false,
+                    false,
+                    false
+                ]
+            },
+            "frontPage": {
+                "value": [
+                    -1,
+                    false,
+                    false,
+                    false,
+                    false
+                ]
+            },
+            "goMode": {
+                "value": [
+                    -1,
+                    false,
+                    false,
+                    false,
+                    false
+                ]
+            },
+            "moveDown": {
+                "value": [
+                    81,
+                    false,
+                    false,
+                    false,
+                    false
+                ]
+            },
+            "moveDownComment": {
+                "value": [
+                    69,
+                    false,
+                    false,
+                    false,
+                    false
+                ]
+            },
+            "moveDownParentSibling": {
+                "value": [
+                    88,
+                    false,
+                    false,
+                    false,
+                    false
+                ]
+            },
+            "moveDownSibling": {
+                "value": [
+                    81,
+                    false,
+                    false,
+                    false,
+                    false
+                ]
+            },
+            "moveDownThread": {
+                "value": [
+                    88,
+                    false,
+                    false,
+                    true,
+                    false
+                ]
+            },
+            "moveToTopComment": {
+                "value": [
+                    -1,
+                    false,
+                    false,
+                    false,
+                    false
+                ]
+            },
+            "moveUp": {
+                "value": [
+                    87,
+                    false,
+                    false,
+                    false,
+                    false
+                ]
+            },
+            "moveUpComment": {
+                "value": [
+                    -1,
+                    false,
+                    false,
+                    false,
+                    false
+                ]
+            },
+            "moveUpSibling": {
+                "value": [
+                    87,
+                    false,
+                    false,
+                    false,
+                    false
+                ]
+            },
+            "moveUpThread": {
+                "value": [
+                    -1,
+                    false,
+                    false,
+                    false,
+                    false
+                ]
+            },
+            "nextGalleryImage": {
+                "value": [
+                    83,
+                    false,
+                    false,
+                    false,
+                    false
+                ]
+            },
+            "previousGalleryImage": {
+                "value": [
+                    71,
+                    false,
+                    false,
+                    false,
+                    false
+                ]
+            },
+            "reply": {
+                "value": [
+                    -1,
+                    false,
+                    false,
+                    false,
+                    false
+                ]
+            },
+            "saveComment": {
+                "value": [
+                    -1,
+                    false,
+                    false,
+                    false,
+                    false
+                ]
+            },
+            "savePost": {
+                "value": [
+                    -1,
+                    false,
+                    false,
+                    false,
+                    false
+                ]
+            },
+            "saveRES": {
+                "value": [
+                    -1,
+                    false,
+                    false,
+                    false,
+                    false
+                ]
+            },
+            "toggleExpando": {
+                "value": [
+                    82,
+                    false,
+                    false,
+                    false,
+                    false
+                ]
+            },
+            "toggleViewImages": {
+                "value": [
+                    -1,
+                    false,
+                    false,
+                    false,
+                    false
+                ]
+            }
+        },
+        "RESoptions.nightMode": {
+            "nightModeOn": {
+                "value": true
+            }
+        },
+        "RESoptions.notifications": {
+            "notificationTypes": {
+                "value": [
+                    [
+                        "subredditManager-99157188",
+                        true,
+                        false
+                    ],
+                    [
+                        "permissions-Permission required",
+                        true,
+                        false
+                    ],
+                    [
+                        "dashboard-Dashboard Notification",
+                        true,
+                        false
+                    ],
+                    [
+                        "profileRedirect-fromLandingPage",
+                        true,
+                        false
+                    ],
+                    [
+                        "accountSwitcher-updateOtherTabs",
+                        true,
+                        false
+                    ],
+                    [
+                        "onboarding-minor",
+                        true,
+                        false
+                    ],
+                    [
+                        "onboarding-patch",
+                        true,
+                        false
+                    ],
+                    [
+                        "noParticipation-no-participation",
+                        true,
+                        false
+                    ],
+                    [
+                        "noParticipation-ok-participation",
+                        true,
+                        false
+                    ]
+                ]
+            }
+        },
+        "RESoptions.penaltyBox": {
+            "features": {
+                "value": [
+                    [
+                        "multiredditNavbar",
+                        "sectionMenu",
+                        true,
+                        5
+                    ],
+                    [
+                        "RESTips",
+                        "dailyTip",
+                        true,
+                        15
+                    ],
+                    [
+                        "profileNavigator",
+                        "sectionMenu",
+                        true,
+                        0
+                    ]
+                ]
+            }
+        },
+        "RESoptions.selectedEntry": {
+            "outlineStyle": {
+                "value": "1px dashed gray"
+            },
+            "outlineStyleNight": {
+                "value": "1px dashed gray "
+            }
+        },
+        "RESoptions.showImages": {
+            "hidePinnedRedditVideos": {
+                "value": true
+            }
+        },
+        "RESoptions.styleTweaks": {
+            "visitedStyle": {
+                "value": true
+            }
+        },
+        "RESoptions.subredditManager": {
+            "storeSubredditVisit": {
+                "value": false
+            }
+        },
+        "backup.lastCheck": 1658705402430,
+        "backup.lastModified.file": 1658705482368,
+        "commentHidePersistor.vtwj1f": {
+            "collapsedThings": {},
+            "updateTime": 1657964271328
+        },
+        "highestVersion": "5.22.10",
+        "last_prune.RESoptions": 1658701278627,
+        "last_prune.commentHidePersistor": 1658701643443,
+        "last_prune.newCommentCount": 1575679815024,
+        "last_prune.readComments": 1658703685112
+    }
+}
